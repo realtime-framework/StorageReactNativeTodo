@@ -1,5 +1,5 @@
-## Realtime Cloud Storage Todo example for React Native (iOS) 
-This example uses the Realtime Cloud Storage iOS React Native SDK to save and retrieve todo lists from the cloud. This sample can be used with the other Realtime Todo samples, including the [on-line example](http://storage-public.realtime.co/samples/todo-lbl/index.html#/). 
+## Realtime Cloud Storage Todo example for React Native (iOS/Android) 
+This example uses the Realtime Cloud Storage React Native SDKs to save and retrieve todo lists from the cloud. This sample can be used with the other Realtime Todo samples, including the [on-line example](http://storage-public.realtime.co/samples/todo-lbl/index.html#/). 
 
 Data will be synced in real-time between devices.
 
@@ -16,9 +16,19 @@ This sample requires that a table named `todoTable` exists with the following ke
 This samples uses a public unauthenticated demonstration key. If you want to keep your todo lists private, please get your free Realtime Cloud Storage application key [here](https://accounts.realtime.co/signup/) and change the key used in the sample. 
  
 ## Realtime Storage React Native SDK
-This project already bundles the Realtime Cloud Storage React Native SDK so you don't need to install it using npm.
+This project doesn't bundle the Realtime Cloud Storage React Native SDKs, so you need to install them using npm.
 
-For the complete source, documentation and installation info, check the main repository at [https://github.com/realtime-framework/RCTRealtimeCloudStorage](https://github.com/realtime-framework/RCTRealtimeCloudStorage)
+###iOS
+For the complete iOS SDK source, documentation and installation info, check the main repository at [https://github.com/realtime-framework/RCTRealtimeCloudStorageIOS](https://github.com/realtime-framework/RCTRealtimeCloudStorageIOS)
+
+###Android
+For the complete Android SDK source, documentation and installation info, check the main repository at [https://github.com/realtime-framework/RCTRealtimeStorageAndroid](https://github.com/realtime-framework/RCTRealtimeStorageAndroid)
+
+
+####Note:
+In iOS drag the images in the img folder to your project. 
+
+In Android create `drawable-hdpi`,`drawable-mdpi`,`drawable-xhdpi` and `drawable-xxhdpi` under the `res` folder in your Android project.
 
 ## Author
 Realtime.co
