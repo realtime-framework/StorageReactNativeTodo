@@ -318,7 +318,7 @@ var SearchBar = React.createClass({
 
 var TodoItem = React.createClass({
   render: function() {
-    var icon = (this.props.item.state == 1) ? require('image!check') : require('image!notcheck');
+    var icon = (this.props.item.state == 1) ? { uri: 'check' } : { uri: 'notcheck' };
     return (
       <View>
           <View style={styles.row}>
@@ -333,7 +333,7 @@ var TodoItem = React.createClass({
             </View>
             
             <TouchableHighlight onPress={this.props.remove}>
-                <Image source={require('image!x')} style={styles.icon} />      
+                <Image source={{ uri: 'x' }} style={styles.icon} />      
             </TouchableHighlight>
           </View>
         <View style={styles.cellBorder} />
