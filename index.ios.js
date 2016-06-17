@@ -4,9 +4,9 @@
  */
 'use strict';
 
-var React = require('react-native');
-var module = require('RCTRealtimeCloudStorageIOS');
-var RCTRealtimeCloudStorage = new module();
+import React, { Component } from 'react';
+import realtime from './RCTRealtimeCloudStorageIOS';
+var RCTRealtimeCloudStorage = new realtime();
 
 RCTRealtimeCloudStorage.storageRef('2Ze1dz', '', 'token');
 var tabref = RCTRealtimeCloudStorage.table("todoTable");
