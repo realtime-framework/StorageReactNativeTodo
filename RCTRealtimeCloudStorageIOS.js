@@ -9,8 +9,8 @@
 
 'use strict';
 
-var React = require('react-native');
-var NativeModules = require('NativeModules');
+import React, { Component } from 'react';
+import { NativeModules } from 'react-native';
 var RCTDeviceEventEmitter = require('RCTDeviceEventEmitter');
 var storage = NativeModules.RealtimeCloudStorage;
 var RTEvents = {};
