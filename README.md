@@ -23,7 +23,7 @@ If you are a developer, you can use Realtime Cloud Storage to create database ta
 
 ###Importing RCTRealtimeCloudStorageIOS to your project
 
-	import realtime from './RCTRealtimeCloudStorageAndroid';
+	import realtime from './RCTRealtimeCloudStorageIOS';
 	var RCTRealtimeCloudStorage = new realtime();
 
 ## Documentation
